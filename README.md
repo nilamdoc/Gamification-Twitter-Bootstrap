@@ -17,7 +17,7 @@ Clone the repo, `git clone git@github.com:nilamdoc/Gamification-Twitter-Bootstra
 Authors
 -------
 
-** Nilam Doctor **
+**Nilam Doctor**
 
 + http://twitter.com/nilamdoc
 + http://github.com/nilamdoc
