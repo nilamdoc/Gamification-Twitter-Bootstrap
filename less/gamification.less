@@ -127,7 +127,74 @@
 
 
 
-.game-levels {}
+//
+// Game Levels
+// --------------------------------------------------
+//
+
+
+.game-pagination {
+  height: @baseLineHeight * 2;
+  margin: @baseLineHeight 0;
+ }
+.game-pagination ul {
+  display: inline-block;
+  .ie7-inline-block();
+  margin-left: 0;
+  margin-bottom: 0;
+  .border-radius(3px);
+  .box-shadow(0 1px 2px rgba(0,0,0,.05));
+}
+.game-pagination li {
+    display: inline;
+  }
+.game-pagination a,
+.game-pagination span {
+  float: left;
+  padding: 0 14px;
+  line-height: (@baseLineHeight * 2) - 2;
+  text-decoration: none;
+  background-color: @game-paginationBackground;
+  border: 1px solid @game-paginationBorder;
+  border-left-width: 0;
+}
+.game-pagination a:hover,
+.game-pagination .active a,
+.game-pagination .active span {
+  background-color: #f5f5f5;
+}
+.game-pagination .active a,
+.game-pagination .active span {
+  color: @grayLight;
+  cursor: default;
+}
+.game-pagination .disabled span,
+.game-pagination .disabled a,
+.game-pagination .disabled a:hover {
+  color: @grayLight;
+  background-color: transparent;
+  cursor: default;
+}
+.game-pagination li:first-child a,
+.game-pagination li:first-child span {
+  border-left-width: 1px;
+  .border-radius(3px 0 0 3px);
+}
+.game-pagination li:last-child a,
+.game-pagination li:last-child span {
+  .border-radius(0 3px 3px 0);
+}
+
+// Centered
+.game-pagination-centered {
+  text-align: center;
+}
+.game-pagination-right {
+  text-align: right;
+}
+
+
+
 .game-points {}
 .game-rewards {}
 .game-socialgraph {}
