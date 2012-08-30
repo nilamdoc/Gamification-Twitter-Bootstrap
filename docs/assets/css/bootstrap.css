@@ -809,7 +809,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .game-progress-warning .bar,.game-progress .bar-warning{background-color:#faa732;background-image:-moz-linear-gradient(top, #fbb450, #f89406);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));background-image:-webkit-linear-gradient(top, #fbb450, #f89406);background-image:-o-linear-gradient(top, #fbb450, #f89406);background-image:linear-gradient(to bottom, #fbb450, #f89406);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450', endColorstr='#fff89406', GradientType=0);}
 .game-progress-warning.game-progress-striped .bar,.game-progress-striped .bar-warning{background-color:#fbb450;background-image:-webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));background-image:-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:-o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);}
 [class^="gicon-"],[class*=" gicon-"]{display:inline-block;width:36px;height:36px;*margin-right:.3em;line-height:36px;vertical-align:text-top;background-image:url("../img/flat-glyphicons-fulllings.png");background-position:36px 36px;background-repeat:no-repeat;margin-top:1px;}
-.gicon-white,.nav>.active>a>[class^="gicon-"],.nav>.active>a>[class*=" gicon-"],.dropdown-menu>li>a:hover>[class^="gicon-"],.dropdown-menu>li>a:hover>[class*=" gicon-"],.dropdown-menu>.active>a>[class^="gicon-"],.dropdown-menu>.active>a>[class*=" gicon-"]{background-image:url("../img/whiteglyphicons-fulllings.png");}
+.gicon-white,.nav>.active>a>[class^="gicon-"],.nav>.active>a>[class*=" gicon-"],.dropdown-menu>li>a:hover>[class^="gicon-"],.dropdown-menu>li>a:hover>[class*=" gicon-"],.dropdown-menu>.active>a>[class^="gicon-"],.dropdown-menu>.active>a>[class*=" gicon-"]{background-image:url("../img/flat-glyphicons-fulllings.png");}
 .gicon-glass{background-position:0px 0px;}
 .gicon-leaf{background-position:-40px 0px;}
 .gicon-dog{background-position:-80px 0px;}
@@ -1172,7 +1172,7 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .gicon-file_export{background-position:-1160px -440px;}
 .gicon-pinterest{background-position:0px -480px;}
 .gicon-dropbox{background-position:-40px -480px;}
-.gicon-google+_alt{background-position:-80px -480px;}
+.gicon-google_alt{background-position:-80px -480px;}
 .gicon-jolicloud{background-position:-120px -480px;}
 .gicon-yahoo{background-position:-160px -480px;}
 .gicon-blogger{background-position:-200px -480px;}
