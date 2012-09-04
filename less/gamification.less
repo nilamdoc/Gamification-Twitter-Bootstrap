@@ -129,11 +129,44 @@
 // -------------------------
 @iconGameSpritePath:          "../img/flat-glyphicons-fulllings.png";
 @iconGameWhiteSpritePath:     "../img/flat-glyphicons-fulllings.png";
+@iconBadgeYellowBlueCirclePath:     "../img/yellow-blue-circle.png";
+@iconBadgeGreenBlueCirclePath:     "../img/green-blue-circle.png";
+@iconBadgeOrangeBlueCirclePath:     "../img/orange-blue-circle.png";
+@iconBadgePinkBlueCirclePath:     "../img/pink-blue-circle.png";
+@iconBadgeCyneGrayCirclePath:     "../img/cyne-gray-circle.png";
+@iconBadgeGrayGrayCirclePath:     "../img/gray-gray-circle.png";
 //
 // Sprites
 // --------------------------------------------------
+.gback-yellow-blue-circle{
+  background-image: url("@{iconBadgeYellowBlueCirclePath}");
+  }
+.gback-green-blue-circle{
+  background-image: url("@{iconBadgeGreenBlueCirclePath}");
+  }
+.gback-orange-blue-circle{
+  background-image: url("@{iconBadgeOrangeBlueCirclePath}");
+  }
+.gback-pink-blue-circle{
+  background-image: url("@{iconBadgePinkBlueCirclePath}");
+  }
+.gback-cyne-gray-circle{
+  background-image: url("@{iconBadgeCyneGrayCirclePath}");
+  }
+.gback-gray-gray-circle{
+  background-image: url("@{iconBadgeGrayGrayCirclePath}");
+  }
+  
+.gback-yellow-blue-circle, .gback-green-blue-circle, .gback-orange-blue-circle, .gback-pink-blue-circle, .gback-cyne-gray-circle, .gback-gray-gray-circle{
+  width: 37px;
+  height: 37px;
+  .ie7-restore-right-whitespace();
+  line-height: 37px;
+  vertical-align: text-top;
+  background-repeat: no-repeat;
+  margin-top: 0px;
 
-
+}
 // ICONS
 // -----
 
@@ -170,6 +203,7 @@
   background-image: url("@{iconGameWhiteSpritePath}");
 }
 
+.yellowBlueCircle{background-position: 0px 0px;}
 .gicon-glass { background-position: 0px 0px;}
 .gicon-leaf { background-position: -40px 0px;}
 .gicon-dog { background-position: -80px 0px;}
